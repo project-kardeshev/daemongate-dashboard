@@ -176,6 +176,14 @@
     tinyexec "^0.3.0"
     yargs "^17.0.0"
 
+"@commitlint/config-conventional@^19.8.0":
+  version "19.8.0"
+  resolved "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-19.8.0.tgz#4a1470a0156f5d1f560426c05cfc3a6a796c2b9c"
+  integrity sha512-9I2kKJwcAPwMoAj38hwqFXG0CzS2Kj+SAByPUQ0SlHTfb7VUhYVmo7G2w2tBrqmOf7PFd6MpZ/a1GQJo8na8kw==
+  dependencies:
+    "@commitlint/types" "^19.8.0"
+    conventional-changelog-conventionalcommits "^7.0.2"
+
 "@commitlint/config-validator@^19.8.0":
   version "19.8.0"
   resolved "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-19.8.0.tgz#0b30c274e4427d3942fd62ecf53c19d99f43ac4a"
@@ -1433,6 +1441,13 @@ conventional-changelog-angular@^7.0.0:
   dependencies:
     compare-func "^2.0.0"
 
+conventional-changelog-conventionalcommits@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.npmjs.org/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-7.0.2.tgz#aa5da0f1b2543094889e8cf7616ebe1a8f5c70d5"
+  integrity sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==
+  dependencies:
+    compare-func "^2.0.0"
+
 conventional-commits-parser@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-5.0.0.tgz#57f3594b81ad54d40c1b4280f04554df28627d9a"
@@ -1619,14 +1634,6 @@ eslint-plugin-react-refresh@^0.4.19:
   resolved "https://registry.npmjs.org/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.19.tgz#f15020c0caa58e33fc4efda27d328281ca74e53d"
   integrity sha512-eyy8pcr/YxSYjBoqIFSrlbn9i/xvxUFa8CjzAYo9cFjgGXqq1hyjihcpZvxRLalpaWmueWR81xn7vuKmAFijDQ==
 
-eslint-plugin-tailwindcss@^3.18.0:
-  version "3.18.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-3.18.0.tgz#00b020f6360e616d592c477a9abdc7d18970715d"
-  integrity sha512-PQDU4ZMzFH0eb2DrfHPpbgo87Zgg2EXSMOj1NSfzdZm+aJzpuwGerfowMIaVehSREEa0idbf/eoNYAOHSJoDAQ==
-  dependencies:
-    fast-glob "^3.2.5"
-    postcss "^8.4.4"
-
 eslint-scope@^8.3.0:
   version "8.3.0"
   resolved "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.3.0.tgz#10cd3a918ffdd722f5f3f7b5b83db9b23c87340d"
@@ -1744,7 +1751,7 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fast-glob@^3.2.5, fast-glob@^3.3.2:
+fast-glob@^3.3.2:
   version "3.3.3"
   resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz#d06d585ce8dba90a16b0505c543c3ccfb3aeb818"
   integrity sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==
@@ -2565,7 +2572,7 @@ pidtree@^0.6.0:
   resolved "https://registry.npmjs.org/pidtree/-/pidtree-0.6.0.tgz#90ad7b6d42d5841e69e0a2419ef38f8883aa057c"
   integrity sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==
 
-postcss@^8.4.4, postcss@^8.5.3:
+postcss@^8.5.3:
   version "8.5.3"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.5.3.tgz#1463b6f1c7fb16fe258736cba29a2de35237eafb"
   integrity sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==
