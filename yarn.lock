@@ -501,6 +501,11 @@
     "@eslint/core" "^0.12.0"
     levn "^0.4.1"
 
+"@fontsource/cormorant-infant@^5.2.6":
+  version "5.2.6"
+  resolved "https://registry.npmjs.org/@fontsource/cormorant-infant/-/cormorant-infant-5.2.6.tgz#80bc35952c32d513d233801ed9196d16808ba1c5"
+  integrity sha512-LQGAq3nh4+zN86Dvpd3JGIx+BDj0Y58g5wsaofiRgzdbfYszfHL1Jn7xs1K7nkHXz7qXfqlkpC1YvpHtHsZkCA==
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz#17c55ca7d426733fe3c561906b8173c336b40a77"
